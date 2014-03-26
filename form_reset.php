@@ -156,7 +156,8 @@ function test_input($data)
 <h2>PHP Form Validation Example</h2>
 <form id="hw_form_id" name="hw_form_name" method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 	
-	
+<fieldset id="hardware" class="left">
+
 <div>
 	<label for="name">Name:</label>
 	<input type="text" name="name" value="<?php echo $name;?>">
@@ -190,6 +191,9 @@ function test_input($data)
 	<br>
 	<br>
 </div>
+
+</fieldset>
+
 	<input type="submit" name="submit" value="Submit">
 	<input type="reset" />
 	<input type="button" name="empty" value="Empty" onclick="emptyForm('hw_form')">
