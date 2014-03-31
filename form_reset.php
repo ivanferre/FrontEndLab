@@ -63,6 +63,8 @@
 		            } // end switch
 		        } // end for y
 		    } // end for x
+			
+			document.getElementById(el).submit;
 		}
 
 
